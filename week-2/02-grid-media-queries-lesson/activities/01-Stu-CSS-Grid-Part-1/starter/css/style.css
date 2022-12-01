@@ -4,10 +4,41 @@ body {
 
 /* Grid CSS */
 
+#heroGrid  {/*Grid CSS code/*
+margin: 0px 5%;
+display: grid;
+min-height: 500px;
+height: 70vh;
+grid- template-rows: 3fr 1fr;
+grid- template-columns: 3fr 1fr
+grid-template-areas: "featuredProduct secondaryProduct"
+"featuredProduct CTA"; 
+}
+  
+#featuredProduct{
+  grid-row: span 2;
+}
+  
+  #secondaryProduct{
+  
+}
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+align-items: center;
+display: flex;
+position: relative;
 
+.heroGridArea
+featuredProduct
+secondaryProduct
+
+#CTA ID
+justify-content: 0 5%
+cursor: pointer;
+
+background-image:}
 /* Category Grid CSS */
-
-
 
 
 /* Navigation CSS */
